@@ -1,0 +1,53 @@
+* {
+	font-family: "Roboto", sans-serif;
+	/*semicolon (;): delimiter||terminator*/
+	color: black; 
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif /*!important => gives priority on ur styling rule*/;
+	color: green;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border-radius: 25px;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Center the content vertically using flexbox*/
+#gallery {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 60vh;
+}
+
+/*Removes the bullets of the uls/lists*/
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+/*Add spacing and borders to each section*/
+.tools {
+	padding: 15px;
+	height: 220px;
+	border: 3px solid green;
+	margin: 15px;
+	width: 75%;
+}
+
